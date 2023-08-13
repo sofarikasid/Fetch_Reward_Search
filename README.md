@@ -12,6 +12,9 @@ This project aims to develop an intelligent search tool that empowers users to r
  Deployment (CI/CD) practices. All of these processes are facilitated using software design principles
  and Machine Learning Operations (MLOps) tools and methodologies.
 
+### Search Engine Architecture
+![Semantic description of image](https://github.com/sofarikasid/Fetch_Reward_Search/blob/main/_search_engine.jpg)
+
  ### How to Run:
  ```diff
 clone repo
