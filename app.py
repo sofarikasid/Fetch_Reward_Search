@@ -32,7 +32,7 @@ def search_similar_texts(query, model_name, index_path, top_k=10):
     D, indices = index.search(query_embedding.cpu().numpy(), top_k)
 
     # Filter and get the relevant offers and their scores
-    relevant_indices = [i for i, score in enumerate(D[0]) if 0.4 <= score <= 1.0]
+    relevant_indices = [i for i, score in enumerate(D[0]) if 0.2 <= score <= 1.0]
     relevant_scores = [D[0][i] for i in relevant_indices]
     relevant_offers = [df["OFFER"][indices[0][i]] for i in relevant_indices]
 
