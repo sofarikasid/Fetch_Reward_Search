@@ -1,0 +1,14 @@
+sentence_transformers
+transformers
+pandas
+
+#testing
+pylint
+pytest
+black
+
+#vector database
+faiss_cpu
+
+#microservices
+gradio
